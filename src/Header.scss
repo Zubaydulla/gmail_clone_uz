@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+
+    &__left {
+        display: flex;
+        align-items: center;
+
+        img {
+            object-fit: contain;
+            height: 80px;
+            margin-left: 5px;
+        }
+    }
+
+    &__middle {
+        display: flex;
+        align-items: center;
+        flex: 0.6;
+        background-color: whitesmoke;
+        padding: 4px 10px;
+        border-radius: 9px;
+        margin-right: 400px;
+
+        &-search {
+            color: gray;
+        }
+
+        &-list {
+            color: gray;
+        }
+
+        input {
+            border: none;
+            width: 100%;
+            padding: 0 10px;
+            outline-width: 0;
+            font-size: medium;
+            background-color: transparent;
+        }
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+    }
+}
